@@ -3,7 +3,3 @@ supabase>=2.0.2
 fastapi>=0.104.1
 uvicorn>=0.24.0
 python-dotenv>=1.0.0
-requests>=2.31.0            # for calling FastAPI endpoints from frontend
-mutagen>=1.46.0             # for audio duration extraction
-pydantic>=2.5.1   
-pydub>=0.27.1                # optional: advanced audio manipulation
