@@ -1,4 +1,4 @@
-from db import DatabaseManager
+from src.db import DatabaseManager
 
 class SongManager:
     """
