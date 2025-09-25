@@ -176,5 +176,5 @@ Ideas for extending this project:
 ## Support
 
 If you encounter any issues or have questions:
-Mail ID:`poojithadomala13@gmail.com`
+Mail ID:`domalapoojitha13@gmail.com`
 Mobile No:`9573814893`
