@@ -35,7 +35,8 @@ if uploaded_file and song_name:
             supabase.storage.from_("songs").upload(file_path, uploaded_file.getvalue())
 
             # Get public URL
-            file_url = supabase.storage.from_("songs").get_public_url(file_path)
+            file_url_dict = supabase.storage.from_("songs").get_public_url(file_path)
+            file_url = file_url_dict.get("publicUrl")
 
             # Calculate duration
             try:
